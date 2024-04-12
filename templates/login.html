@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+</head>
+<body class="bg-gray-100 font-sans antialiased">
+    <!-- Navbar -->
+    <nav class="bg-pink-600 p-4 text-white flex justify-between">
+        <div>
+            <h1 class="text-3xl font-bold">BlogBrew</h1>
+        </div>
+        <div>
+            <!-- <a href="#" class="text-white hover:underline">Login</a> -->
+            <a href="signup.html" class="text-white hover:underline">Signup</a>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="flex items-center justify-center h-screen">
+        <div class="bg-white p-8 shadow-md rounded-lg max-w-md w-full">
+            <!-- Login form -->
+            <form action="" class="space-y-4">
+                <h2 class="text-xl font-semibold">Login</h2>
+                <div>
+                    <label for="username" class="block md-1 font-medium">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your username" class="w-full p-2 border rounded">
+                </div>
+
+                <div>
+                    <label for="password" class="block md-1 font-medium">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" class="w-full p-2 border rounded">
+                </div>
+                <br>
+                <p>
+                    First time here? <a href="signup.html" class="text-blue-600 hover:underline">Signup</a> instead
+                </p>
+                <button type="submit" class="w-full bg-pink-600 text-white p-2 rounded hover:bg-pink-700">Login</button>
+                
+            </form>
+        </div>
+    </div>
+    <footer class="text-center p-4 text-black mt-6">
+        Made with ❤️ by <a href="https://www.linkedin.com/in/oshanik/" target="_blank" class="text-blue-500 underline">Oshanik</a>
+    </footer>
+</body>
+</html>
